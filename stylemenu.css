@@ -42,8 +42,10 @@ body {
     font-size: 100px;
     font-weight: bold;
     font-family: 'myfont';
+    display: inline-block; /* نمایش به صورت فلکس */
+  justify-content: center; /* وسط‌چین */
+  gap: 20px; /* فاصله بین متن‌ها */
 }
-
 
 .head-text {
     font-size: 28px;
