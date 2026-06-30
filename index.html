@@ -1,113 +1,109 @@
-پ<!DOCTYPE html>
-<html lang="fa">
-<head>
-    <meta charset="UTF-8">
-    <title>WELCOME LEMON CAFE :) </title>
-    <link rel="stylesheet" href="stylemenu.css">
-</head>
-<body>
-  
+@font-face {
+    font-family: 'myfont';
+    src: url('azarShiva.ttf') format('truetype');
+}
 
-    <div class="title-box">
-    <img src="fruit.png"  class="lemon-img">
-    <h1 class="head-text">LEMON CAFE MENU</h1>
-</div>
-
-
-    <div class="menu-box">
-        <h2 class="TEXTBOX clrbreakfast">صبحانه / </h2>
-        <h2 class="TEXTBOX clrbreakfast"> BREAKFAST</h2>
-        
-        <p class="sub">Delicious Food</p>
-        <ul>
-            <li> عدسی — 120</li>
-            <li>  — 250</li>
-            <li>Beef — 300</li>
-            <li>Salmon — 350</li>
-        </ul>
-    </div>
-
-    <div class="menu-box">
-        <h2 class="TEXTBOX clrbar">بار گرم / </h2>
-        <H2 class="TEXTBOX clrbar">HOT BAR</H2>
-        <p class="sub">Delicious Food</p>
-        <ul>
-            <li> — 250</li>
-            <li>Chicken — 250</li>
-            <li>Beef — 300</li>
-            <li>Salmon — 350</li>
-        </ul>
-    </div>
-
-    <div class="menu-box">
-        <h2 class="TEXTBOX clrcold">بار سرد /  </h2>
-        <H2 class="TEXTBOX clrcold">COLD BAR</H2>
-        <p class="sub">Favorite Drink</p>
-        <ul>
-            <li>Classic — 300</li>
-            <li>Coconut — 350</li>
-            <li>Honey — 350</li>
-            <li>Strawberry Cream — 400</li>
-        </ul>
-    </div>
-
-    <div class="menu-box">
-        <h2 class="TEXTBOX clrshake">شیک ها  / SHAKES</h2>
-        <p class="sub">Crisp Crisp</p>
-        <ul>
-            <li>Popcorn — 300</li>
-            <li>Banana Caramel — 350</li>
-            <li>Blueberry Honey — 350</li>
-            <li>Raspberry Cream — 350</li>
-        </ul>
-    </div>
-
-    <div class="menu-box">
-        <h2 class="TEXTBOX clrmacha">ماچاها  /  MACHAIA</h2>
-        <p class="sub">Sweetness</p>
-        <ul>
-            <li>Classic — 200</li>
-            <li>Nutella Banana — 250</li>
-            <li>Pomegranate Honey — 250</li>
-            <li>Strawberry Cream — 300</li>
-        </ul>
-    </div>
-
+body {
+    font-family: sans-serif;
+    direction: rtl;
+    background: #f5f5f5;
+    padding: 20px;
+    background-color: #f4f48d;
+    text-align: center;
+    font-family: 'my font', sans-serif;
     
-    <div class="menu-box">
-        <h2 class="TEXTBOX clrsandwich">ساندویچ ها / SANDWICHS</h2>
-        <p class="sub">Sweetness</p>
-        <ul>
-            <li>Classic — 200</li>
-            <li>Nutella Banana — 250</li>
-            <li>Pomegranate Honey — 250</li>
-            <li>Strawberry Cream — 300</li>
-        </ul>
-    </div>
 
-    
-    <div class="menu-box">
-        <h2 class="TEXTBOX clrsalad"> سالاد ها / SALADS</h2>
-        <p class="sub">Sweetness</p>
-        <ul>
-            <li>Classic — 200</li>
-            <li>Nutella Banana — 250</li>
-            <li>Pomegranate Honey — 250</li>
-            <li>Strawberry Cream — 300</li>
-        </ul>
-    </div>
+}
+.clrbreakfast {
+    color: #FF93AD; /* رنگ قرمز */
+}
+.clrbar {
+    color: #B26920; /* رنگ نارنجی */
+}
+.clrcold {
+    color: #4A90E2; /* رنگ آبی */
+}
+.clrshake {
+    color: #B31B1B; /* رنگ زرد */
+}
+.clrmacha {
+    color: #78864E; /* رنگ سبز */
+}
+.clrsandwich {
+    color: #8e4585; /* رنگ قهوه‌ای */
+}
+.clrsalad {
+    color: #50C878; /* رنگ سبز */
+}
+.clrdrinks {
+    color: #654321; /* رنگ نارنجی */
+}
+.menu-box h2.TEXTBOX {
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'myfont';
+    display: inline-block; /* نمایش به صورت فلکس */
+  justify-content: center; /* وسط‌چین */
+  gap: 20px; /* فاصله بین متن‌ها */
+}
 
-    
-    <div class="menu-box">
-        <h2 class="TEXTBOX clrdrinks">نوشیدنی ها  / DRINKS</h2>
-        <p class="sub">Sweetness</p>
-        <ul>
-            <li>Classic — 200</li>
-            <li>Nutella Banana — 250</li>
-            <li>Pomegranate Honey — 250</li>
-            <li>Strawberry Cream — 300</li>
-        </ul>
-    </div>
+.head-text {
+    font-size: 28px;
+    font-weight: bold;
+    color: #5C4033;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.title-box {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* فاصله بین لیمو و تکست */
+    justify-content: center; /* وسط‌چین */
+    margin-bottom: 30px;
+}
 
-</body>
-</html>
+.lemon-img {
+    width: 55px;   /* اندازه لیمو */
+    height: auto;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.menu-box {
+    background: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #ddd;
+}
+
+.menu-box h2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.sub {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
