@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'myfont';
+    src: url('azarShiva.ttf') format('truetype');
+}
+
+body {
+    font-family: sans-serif;
+    direction: rtl;
+    background: #f5f5f5;
+    padding: 20px;
+    background-color: #f4f48d;
+    text-align: center;
+    font-family: 'my font', sans-serif;
+    
+
+}
+.clrbreakfast {
+    color: #FF93AD; /* رنگ قرمز */
+}
+.clrbar {
+    color: #B26920; /* رنگ نارنجی */
+}
+.clrcold {
+    color: #4A90E2; /* رنگ آبی */
+}
+.clrshake {
+    color: #B31B1B; /* رنگ زرد */
+}
+.clrmacha {
+    color: #78864E; /* رنگ سبز */
+}
+.clrsandwich {
+    color: #8e4585; /* رنگ قهوه‌ای */
+}
+.clrsalad {
+    color: #50C878; /* رنگ سبز */
+}
+.clrdrinks {
+    color: #654321; /* رنگ نارنجی */
+}
+.menu-box h2.TEXTBOX {
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'myfont';
+}
+
+
+.head-text {
+    font-size: 28px;
+    font-weight: bold;
+    color: #5C4033;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.title-box {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* فاصله بین لیمو و تکست */
+    justify-content: center; /* وسط‌چین */
+    margin-bottom: 30px;
+}
+
+.lemon-img {
+    width: 55px;   /* اندازه لیمو */
+    height: auto;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.menu-box {
+    background: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #ddd;
+}
+
+.menu-box h2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.sub {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
